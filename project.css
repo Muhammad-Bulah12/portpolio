@@ -1,0 +1,300 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*--------navbar--------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#nav-bar .me
+{
+ color: #007bff;
+ font-size: 30px;
+ font-family: serif;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: right;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none;
+}
+.nav-link
+{
+    color: #555;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*---------slider-------*/
+#slider
+{
+width: 100%;
+}
+#slider img
+{
+    width: 100%;
+    height: 100%;
+}
+.corousel-caption 
+{
+    top: 50%;
+    transform: translateY(-580%);
+    bottom: initial!important;
+}
+.corousel-caption h5 
+{
+    font-size: 42px;
+    color: rgb(46, 32, 240); 
+    text-align: center;
+}
+/*--------ABOUT-------*/
+#about
+{
+    padding-top:50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#about span
+{
+    color:#007bff;
+}
+#about img
+{
+    height: 50%;
+    width: 50%;
+    border: blue;
+    position: relative;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+/*----------OUR TEAMS---------*/
+#Our-team
+{
+padding-top: 50px;
+padding-bottom: 50px;
+color: #555;
+background-color: #EFEFEF;
+}
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#Our-team span
+{
+    color: #007bff;
+}
+.profile-pic 
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.img-box img
+{
+    height: 170px;
+    width: 170px;
+    margin: 40px;
+    top: -200px;
+    position:absol;
+    left: calc(50% - 60px);
+    border: 10px solid #007bff;
+}
+.profile-pic .img-box img
+{
+ filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+/*----------TESTIMONALS---------*/
+#Testimonials
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Testimonials .row
+{
+    margin-top: 30px;
+}
+.col-md-4d 
+{
+  margin: 40px auto;  
+}
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.user
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.profile img
+{
+    top: -60px;
+    position:absolute;
+    left: calc(50% - 60px);
+    border: 10px solid #007bff;
+}
+.profile h3
+{
+    margin-top: 15px;
+    font-size: 24px;
+    color: #007bff;
+}
+#Testimonials span
+{
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+}
+blockquote
+{
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+blockquote::before
+{
+    content: '\93';
+    font-size: 50px;
+    cursor: pointer;
+    color: #007bff;
+    line-height: 20px;
+    bottom: -15;
+    right: 5px;
+    position: relative;
+}
+blockquote::after
+{
+    content: '\94';
+    font-size: 50px;
+    cursor: pointer;
+    color: #007bff;
+    line-height: 10px;
+    bottom: -15;
+    left: 5px;
+    position: relative;
+}
+.profile:hover
+{
+    box-shadow: 0 0 15px 5px #007bff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#Testimonials .text-center
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #007bff;
+    font-family: serif;
+}
+/*------contact--------*/
+#contact
+{
+   background: #efefef;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   color: #777;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder
+{
+color: #999;
+}
+.folllow-me
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+/*------------footer------------*/
+#footer
+{
+    background: #333333;
+    color: #fff;
+    padding: 12px;
+    height: 130px;
+}
+.end
+{
+    color: red;
+    font-family: serif;
+    font-size: 42px;
+}
